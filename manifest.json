@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "AI REROUTING EXTENSION",
+  "version": "1.0",
+  "description": "Select optimal AI based on user preference.",
+  "permissions": [
+    "activeTab",
+    "tabs"
+    ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "Icons/AI Icon 16x16.jpg",
+      "48": "Icons/AI Icon 48x48.jpg",
+      "128": "Icons/AI Icon 128x128.jpg"
+    }
+  },
+  "icons": {
+    "16": "Icons/AI Icon 16x16.jpg",
+    "48": "Icons/AI Icon 48x48.jpg",
+    "128": "Icons/AI Icon 128x128.jpg"
+  }
+}

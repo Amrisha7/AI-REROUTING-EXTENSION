@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #menu {
+      width: 200px;
+      height: 300px;
+      overflow-y: scroll;
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+    .option {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="menu">
+    <div class="option" onclick="redirectTo('URL1')">
+      <span>Option 1</span>
+      <span>-></span>
+    </div>
+    <div class="option" onclick="redirectTo('URL2')">
+      <span>Option 2</span>
+      <span>-></span>
+    </div>
+    <div class="option" onclick="redirectTo('URL3')">
+      <span>Option 3</span>
+      <span>-></span>
+    </div>
+    <div class="option" onclick="redirectTo('URL4')">
+      <span>Option 4</span>
+      <span>-></span>
+    </div>
+    <div class="option" onclick="redirectTo('URL5')">
+      <span>Option 5</span>
+      <span>-></span>
+    </div>
+  </div>
+
+  <script>
+    function redirectTo(url) {
+      window.location.href = url;
+    }
+  </script>
+</body>
+</html>
