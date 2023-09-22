@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    
+}
+
+.nav-bar{
+    height: 60px;
+    color: aliceblue;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    height: 60px;
+    width: 75px;
+    background-image: url(Ai\ logo.jpg);
+    background-size: cover;
+}
+
+.home{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.nav-home{
+    padding: 5px;
+
+}
+
+.nav-about{
+    padding: 5px;
+
+}
+
+.about{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-contact{
+    padding: 5px;
+
+}
+
+.contact{
+    text-decoration: none;
+    color: white;
+}
+
+.border:hover{
+    border: solid 2px white;
+}
+
+.bp{
+    background-image: url(picture3.jpg);
+    background-size: cover;
+    height: 1000px;
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+}
+
+
+
+.mp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    width: 800px;
+    
+
+    
+}
+
+.heading{
+    
+    font-size: 50px;
+    color: aqua;
+    
+
+
+}
+
+.hd{
+    margin-top: 40px;
+
+}
+
+.topic{
+    height: 600px;
+    width: 700px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-evenly;
+
+}
+
+.tn{
+    background-size: cover;
+    font-size: 1.2rem;
+    color: white;
+
+}
+
+.tname{
+
+    height: 65px;
+    width: 150px;
+
+    margin-left: 30px;
+    margin-bottom: 50px;
+    
+    text-align: none;
+    border: 3px solid aqua;
+    border-radius: 20px;
+
+    overflow:hidden;
+}
+    
+    
+
+.tname a{
+    
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tname img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+

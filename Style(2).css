@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    
+}
+
+.nav-bar{
+    height: 60px;
+    color: aliceblue;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    height: 60px;
+    width: 75px;
+    background-image: url(Ai\ logo.jpg);
+    background-size: cover;
+}
+
+.home{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.nav-home{
+    padding: 5px;
+
+}
+
+.nav-about{
+    padding: 5px;
+    
+}
+
+.nav-contact{
+    padding: 5px;
+    
+
+}
+
+.contact{
+    text-decoration: none;
+    color: white;
+}
+
+.border:hover{
+    border: solid 2px white;
+}
+
+/** Main part**/
+
+.bp{
+    background-image: url(robot.jpg);
+    background-size: cover;
+    height: 1000px;
+    
+}
+
+.part{
+    margin-left: 2rem;
+    color: white;
+    
+}
+
+.topic-heading{
+    font-size: 4rem;
+}
+
+.topic{
+    margin-top: 2rem;
+    height: 600px;
+    width: 800px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.tname{
+    height: 22.5%;
+    width: 22.5%;
+    
+    margin-top: 2%;
+    margin-left: 5%;
+    border: 3px solid white;
+    border-radius: 10px;
+    
+}
+
+.tn{
+    font-size: 1.2rem;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32%;
+    
+}
+
+.tnt{
+    color: white;
+    text-decoration: none;
+}
+
+
+.tname:hover{
+    background-image: url(picture1.jpg);
+    border-radius: 10px;
+    background-size: cover;
+}
+
+
+
