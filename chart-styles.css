@@ -1,0 +1,12 @@
+/* Apply styles to the canvas containing the chart */
+#chartCanvas {
+  width: 100%;
+  height: 300px;
+}
+
+/* Add margin to the chart container */
+#chartContainer {
+  margin-top: 20px;
+}
+
+/* Additional styling for your chart can be added here */
