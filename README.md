@@ -19,8 +19,14 @@ A chrome extension to suggest different types of AI to the end users depending u
 1. Click on the AI Rerouting Extension icon in your Chrome toolbar.
 2. Use the search bar to enter keywords related to AI categories.
 3. Select a category or enter a keyword and press Enter to navigate directly to a website.
+   
 ## Images
+
 ![Screenshot (194)1](https://github.com/Amrisha7/AI-REROUTING-EXTENSION/assets/136724257/46dd505a-b694-4c35-896e-73e931a43c5b)
+
+## Flowchart
+
+![image](https://github.com/Amrisha7/AI-REROUTING-EXTENSION/assets/136724257/750c4648-1ec6-482a-845b-199ca64b7d97)
 
 ## Acknowledgments
 
